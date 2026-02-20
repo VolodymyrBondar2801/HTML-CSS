@@ -1,0 +1,19 @@
+.block{
+    height: 100vh;
+    display: flex;
+    background-color: lightcoral;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    transition: 1s;
+}
+.item:hover{
+    background-color: lightgreen;
+    border-radius: 50%;
+    transition: 2s;
+}
