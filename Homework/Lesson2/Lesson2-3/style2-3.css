@@ -1,0 +1,26 @@
+body{
+    background: radial-gradient(circle, rgba(0, 94, 171, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+.months {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 50px;
+    padding: 15px;
+}
+.item{
+    width: 180px;
+    height: 170px;
+    background-color: rgba(221, 227, 237, 0.7);
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 10px;
+    transition: 2s;
+}
+.item:hover{
+    border-radius: 30%;
+    transition: 2s;
+    transform: scale(1.5);
+}
