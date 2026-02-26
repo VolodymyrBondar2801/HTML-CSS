@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+}
+header{
+    height: 4vh;
+    background: #D9D9D9;
+}
+address{
+    height: 10vh;
+    background: #D9D9D9;
+
+}
+footer{
+    height: 12vh;
+    background: #AFA9A9;
+}
+section{
+    height: 74vh;
+    width: 60vw;
+    background: #A4A4A4;
+}
+.first{
+    height: 40vh;
+    width: 40vw;
+    background: #7F7A7A;
+}
+.second{
+    height: 34vh;
+    width: 40vw;
+    background: #615050;
+}
+
