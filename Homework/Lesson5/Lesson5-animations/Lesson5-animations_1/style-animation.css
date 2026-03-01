@@ -1,0 +1,63 @@
+body {
+    background-color: moccasin;
+}
+
+div {
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ball_yellow {
+    width: 120px;
+    height: 120px;
+    background: yellow;
+    animation: ball_yellow 2s linear alternate infinite;
+}
+
+.ball_green {
+    width: 120px;
+    height: 120px;
+    background: green;
+    animation: ball_green 2s linear alternate infinite;
+}
+
+.ball_red {
+    width: 120px;
+    height: 120px;
+    background: red;
+    animation: ball_red 2s linear alternate infinite;
+}
+
+@keyframes ball_green {
+    from {
+        transform: translate(100px) rotate(360deg);
+    }
+}
+
+@keyframes ball_yellow {
+    from {
+        transform: translate(400px) rotate(360deg);
+    }
+}
+
+@keyframes ball_red {
+    from {
+        transform: translate(-400px) rotate(360deg);
+    }
+}
+
+button {
+    width: 120px;
+    height: 50px;
+    background-color: #FF7143;
+    border: none;
+    color: black;
+}
+
+.but {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
