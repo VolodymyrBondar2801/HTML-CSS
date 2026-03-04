@@ -1,0 +1,17 @@
+div.Australian>p:nth-child(odd){
+    color:pink;
+}
+.children-or-teenagers>p:nth-child(even){
+    font-size: 22px;
+}
+.children\'s-books>p:nth-child(2n+4)::after{
+    content: "!!!";
+    color:red;
+}
+.autobiographies>p:last-of-type{
+    color:blueviolet;
+}
+.Christian-novels>p:first-letter{
+    font-size: 30px;
+    color:red;
+}
