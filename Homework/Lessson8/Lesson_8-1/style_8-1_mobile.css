@@ -1,0 +1,13 @@
+@media screen and (max-width: 480px) {
+    .wrapper {
+        width: 343px;
+        padding: 32px 16px;
+        gap: 40px;
+    }
+    .picture img{
+        width: 343px;
+    }
+    .container__1, .container__2{
+        flex-wrap: wrap;
+    }
+}
