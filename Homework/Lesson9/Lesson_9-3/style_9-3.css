@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+.grid{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 0.5fr 5fr 4fr 0.8fr 1fr;
+    grid-template-areas:
+    "header header"
+    "item-1 item-2"
+    "item-1 item-3"
+    "item-4 item-4"
+    "footer footer";
+}
+header{
+    grid-area: header;
+    background: #D9D9D9;
+}
+.item-1{
+    grid-area: item-1;
+    background: #A4A4A4;
+}
+.item-2{
+    grid-area: item-2;
+    background: #7F7A7A;
+}
+.item-3{
+    grid-area: item-3;
+    background: #615050;
+}
+.item-4{
+    grid-area: item-4;
+    background: #D9D9D9;
+}
+footer{
+    grid-area: footer;
+    background: #AFA9A9;
+}
